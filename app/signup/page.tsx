@@ -156,8 +156,16 @@ export default function SignupPage() {
             <Link href="/" className="text-2xl font-bold text-gray-900">
               OutThere
             </Link>
-            <div className="text-sm text-gray-600">
-              Step {step} of 5
+            <div className="flex items-center gap-4">
+              <Link 
+                href="/login" 
+                className="text-sm text-orange-600 hover:text-orange-700 font-medium"
+              >
+                Already have an account? Sign in
+              </Link>
+              <div className="text-sm text-gray-600">
+                Step {step} of 5
+              </div>
             </div>
           </div>
         </div>
