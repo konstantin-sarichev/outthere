@@ -136,7 +136,7 @@ export default function HomePage() {
                 Safety
               </Button>
               <Button variant="outline" className="border-white text-white hover:bg-white hover:text-orange-600" asChild>
-                <Link href="/signup">Sign In</Link>
+                <Link href="/login">Sign In</Link>
               </Button>
               <Button className="bg-white text-orange-600 hover:bg-gray-100" asChild>
                 <Link href="/signup">Get Started</Link>
